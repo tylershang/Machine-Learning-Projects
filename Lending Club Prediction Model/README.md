@@ -5,4 +5,4 @@ In this project, I am going to build a model to predict whether approve or rejec
 
 I will approach this as a categorial problem by classifying the 'grade' variable into Good and Bad to indicate applicants' risk and treat the binary variable as my response variable. My model should return Good or Bad when evaluating new applicants.
 
-I'm planning to first clean my data, then implement either PCA or LDA to reduce the 110 dimensions to 10 in order to find interesting variables. After that, I'm going to investigate what variables have significant influences between good applicants and bad applicants. Then I will apply models like random forest to train my data, with cross validation to test.
+I will preprocess the dataset and reduce dimensions to find interesting variables. After that, I'm going to investigate what variables have significant influences between good applicants and bad applicants. Then I will by comparing different models including Logistic Regression, Random Forest, Naïve Bayes, KNN and SVM and evaluate the model using cross validation.
