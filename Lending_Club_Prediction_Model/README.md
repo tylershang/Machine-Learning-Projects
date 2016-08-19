@@ -1,6 +1,8 @@
 
 #Predicting Good Loans From Lending Club Loan Data
 
+###Project proposal
+
 In this project, I am going to build a model to predict whether approve or reject new loan applications based on the historical datasets. I will be using the publicly available dataset of Lending Club issued loan data from 2007 to 2016 Q1.
 
 I will approach this as a categorial problem by classifying the 'grade' variable into Good and Bad to indicate applicants' risk and treat the binary variable as my response variable. My model should return Good or Bad when evaluating new applicants.
